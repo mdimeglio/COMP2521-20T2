@@ -1,6 +1,9 @@
 Consider the following code fragment:
 
 ```C
+#include <stdio.h>
+#include <stdlib.h>
+
 void doCalculation (double x, int y);
 
 // This program reads in two numbers, a double and an int.
@@ -11,17 +14,26 @@ int main (int argc, char * argv[]){
     double x;
     int y;
 
-    scanf("%lf %d",&x,&y);
-    doCalculation(x,y);
-    printf("%lf %d\n",x,y);
+    scanf("%lf %d", &x, &y);
+    doCalculation(&x, &y);
+    printf("%lf %d\n", x, y);
 
-    return EXIT_SUCCESS;
+    return 0;
 }
 
-void doCalculation (double x, int y){
-    x = x/2;
-    y = y + 10;
+void doCalculation (double *a, int *b){
+    *a = *a/2;
+    *b = *b + 10;
 }
+
+DoCalculation
+a: 01
+b:
+
+Main:
+01 x = 1.9
+02 y = 15
+
 ```
 
 (a) Explain what is wrong with this program and why it does not work as

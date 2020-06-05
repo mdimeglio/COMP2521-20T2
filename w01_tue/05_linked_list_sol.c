@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 struct node {
-	int value;
-	struct node *next;
+	int data;
+	struct list *next;
 };
 
 typedef struct node node;
@@ -15,12 +15,13 @@ int main(int argc, char *argv[]) {
     node n1 = {1, NULL};
     node n2 = {4, &n1};
     node n3 = {2, &n2};
+
     // Alternately:
     // node n3;
     // n3.value = 2;
     // n3.next = &n2;
 
-    list l = &n3;
+    list l = &n3; // [2, 4, 1]
     l->value = 2;
     l->next = &n2;
     // Alternately:
@@ -38,8 +39,13 @@ int sumList(list l) {
         sum = sum + cur->value;
         cur = cur->next;
     }
-    return sum;
+    return sum; 
 }
+
+
+
+
+
 
 /* Recursive solution:
 int sumList(list l) {
