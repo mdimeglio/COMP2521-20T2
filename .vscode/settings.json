@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.fontSize": 20,
+    "files.associations": {
+        "locale": "c",
+        "memory": "c",
+        "fstream": "c",
+        "istream": "c",
+        "streambuf": "c"
+    }
+}

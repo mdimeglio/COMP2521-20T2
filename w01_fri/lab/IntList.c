@@ -17,13 +17,14 @@ typedef struct IntListNode {
 	                    // pointer to node containing next element
 } IntListNode;
 
-typedef struct IntListRep {
+struct IntListRep {
 	int size;           // number of elements in list
 	struct IntListNode *first;
 	                    // node containing first value
 	struct IntListNode *last;
 	                    // node containing last value
-} IntListRep;
+} ;
+typedef struct IntListRep IntListRep;
 
 /** Create a new, empty IntList. */
 IntList newIntList (void)
@@ -95,13 +96,21 @@ void IntListInsert (IntList L, int v)
 	L->size++;
 }
 
+//L = [1, 3, 5]
+//v = 2
+//L = [1, 2, 3, 5]
+
+//L = [1, 1, 6, 7, 10]
+//v = 9
+//L = [1, 1, 6, 7, 9, 10]
+
 /** Insert an integer into correct place in a sorted IntList. */
 void IntListInsertInOrder (IntList L, int v)
 {
 	assert (L != NULL);
 
 	// This is INCORRECT
-	IntListInsert (L, v);
+	
 }
 
 /** Delete first occurrence of `v` from an IntList.

@@ -1,6 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// struct complex {
+//     double real;
+//     double imaginary;
+// }
+// typedef struct complex complex;
+
+// NULL
+// struct nonEmptyList
+//     first 
+//     rest
+
+// NULL
+// nonEmptyList(3, NULL)
+// nonEmptyList(4, nonEmptyList(2, NULL))
+
+// typedef struct nonEmptyList *list;
+// struct nonEmptyList {
+//     int first;
+//     list rest;
+// }
+
 struct node {
 	int value;
 	struct node *next;
@@ -8,6 +29,8 @@ struct node {
 
 typedef struct node node;
 typedef node *list; 
+
+typedef struct node * list
 
 int sumList(list l);
 
@@ -34,5 +57,12 @@ int main(int argc, char *argv[]) {
 
 int sumList(list l) {
     // TODO - iteratively, then recursively
-    return 0;
+    int sum = 0;
+
+    node *cur = l;
+    while (cur != NULL) {
+        sum += cur->value;
+        cur = cur->next;
+    }
+    return sum;
 }
