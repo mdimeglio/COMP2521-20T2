@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>A323218E-9853-456E-B1F9-5836D96E7492</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A323218E-9853-456E-B1F9-5836D96E7492.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>01_fib project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>01_fib</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build 01_fib</string>
+			<key>timeStartedRecording</key>
+			<real>613292342.03269005</real>
+			<key>timeStoppedRecording</key>
+			<real>613292342.091874</real>
+			<key>title</key>
+			<string>Build 01_fib</string>
+			<key>uniqueIdentifier</key>
+			<string>A323218E-9853-456E-B1F9-5836D96E7492</string>
+		</dict>
+		<key>CEFD8AE8-BA09-42DC-8A69-EED33867D05E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CEFD8AE8-BA09-42DC-8A69-EED33867D05E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>01_fib project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>01_fib</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build 01_fib</string>
+			<key>timeStartedRecording</key>
+			<real>613292282.52744603</real>
+			<key>timeStoppedRecording</key>
+			<real>613292284.10042298</real>
+			<key>title</key>
+			<string>Build 01_fib</string>
+			<key>uniqueIdentifier</key>
+			<string>CEFD8AE8-BA09-42DC-8A69-EED33867D05E</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
