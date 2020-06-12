@@ -1,0 +1,1 @@
+Will hand write in GoodNotes
