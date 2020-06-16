@@ -1,3 +1,4 @@
+// By Matthew Di Meglio
 #ifndef EITHER_INT_INT_H
 #define EITHER_INT_INT_H
 #include <stdbool.h>

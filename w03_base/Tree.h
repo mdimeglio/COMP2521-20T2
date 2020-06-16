@@ -1,3 +1,4 @@
+// By Matthew Di Meglio
 #ifndef TREE_H
 #define TREE_H
 #include "MaybeInt.h"

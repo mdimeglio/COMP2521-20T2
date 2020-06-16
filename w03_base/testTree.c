@@ -1,3 +1,4 @@
+// By Matthew Di Meglio
 #include <stdio.h>
 #include <assert.h>
 #include "Tree.h"

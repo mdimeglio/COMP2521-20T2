@@ -1,3 +1,4 @@
+// By Matthew Di Meglio
 #ifndef MAYBE_INT_H
 #define MAYBE_INT_H
 #include <stdbool.h>

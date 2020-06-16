@@ -1,3 +1,4 @@
+// By Matthew Di Meglio
 #include "EitherIntInt.h"
 
 EitherIntInt left(int value) {
