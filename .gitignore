@@ -1,6 +1,7 @@
 ## C .gitignore
 .dSYM
 .xcodeproj
+DerivedData
 
 # Prerequisites
 *.d
