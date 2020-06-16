@@ -1,5 +1,6 @@
 ## C .gitignore
 .dSYM
+.xcodeproj
 
 # Prerequisites
 *.d
