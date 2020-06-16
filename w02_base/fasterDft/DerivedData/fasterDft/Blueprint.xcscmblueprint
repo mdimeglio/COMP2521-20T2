@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CEBD44CBC73C7CF756C00FA99560DAE8579AD27A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CEBD44CBC73C7CF756C00FA99560DAE8579AD27A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "553C02A5-613C-4CB7-B521-4531544A9A32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CEBD44CBC73C7CF756C00FA99560DAE8579AD27A" : "Tutes\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "fasterDft",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "w02_base\/fasterDft\/fasterDft.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:mdimeglio\/COMP2521-20T2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEBD44CBC73C7CF756C00FA99560DAE8579AD27A"
+    }
+  ]
+}
