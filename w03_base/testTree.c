@@ -18,13 +18,13 @@ int main() {
 }
 
 void testCountNodes() {
-    Tree t = branch(5,
-                    branch(3,
-                           leaf(),
-                           branch(4,
-                                  NULL,
-                                  NULL)),
-                    NULL);
+    Tree t = nonEmptyTree(5,
+                    nonEmptyTree(3,
+                                 emptyTree(),
+                                 nonEmptyTree(4,
+                                              emptyTree(),
+                                              emptyTree())),
+                    emptyTree());
 
     assert(countNodes(t) == 3);
     assert(countNodes(NULL) == 0);
@@ -35,42 +35,42 @@ void testCountNodes() {
 void testDepth() {
     Tree t;
     
-    t = branch(5,
-               branch(3,
-                      leaf(),
-                      branch(4,
-                             leaf(),
-                             leaf()
+    t = nonEmptyTree(5,
+               nonEmptyTree(3,
+                      emptyTree(),
+                      nonEmptyTree(4,
+                             emptyTree(),
+                             emptyTree()
                             )
                      ),
-               leaf()
+               emptyTree()
               );
 
     assert(depth(t) == 3);
     freeTree(t);
 
-    t = branch(5,
-               branch(3,
-                      leaf(),
-                      leaf()
+    t = nonEmptyTree(5,
+               nonEmptyTree(3,
+                      emptyTree(),
+                      emptyTree()
                      ),
-               leaf()
+               emptyTree()
               );
 
     assert(depth(t) == 2);
     freeTree(t);
 
-    assert(depth(leaf()) == 0);
+    assert(depth(emptyTree()) == 0);
 }
 
 void testNodeDepth() {
     Tree t =
-        branch(
+        nonEmptyTree(
             5,
-            branch(
+            nonEmptyTree(
                 3,
                 NULL,
-                branch(
+                nonEmptyTree(
                     4,
                     NULL,
                     NULL
@@ -97,18 +97,18 @@ void testNodeDepth() {
 
 void testNthSmallest() {
     Tree t =
-        branch(
+        nonEmptyTree(
             5,
-            branch(
+            nonEmptyTree(
                 3,
-                leaf(),
-                branch(
+                emptyTree(),
+                nonEmptyTree(
                     4,
-                    leaf(),
-                    leaf()
+                    emptyTree(),
+                    emptyTree()
                 )
             ),
-            leaf()
+            emptyTree()
         );
     MaybeInt m;
     m = nthSmallest(t, 1);

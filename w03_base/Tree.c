@@ -9,7 +9,7 @@ struct branch {
 	Tree right;
 };
 
-Tree branch(int key, Tree left, Tree right) {
+Tree nonEmptyTree(int key, Tree left, Tree right) {
     Tree t = malloc(sizeof(struct branch));
     t->key = key;
     t->left = left;
@@ -17,7 +17,7 @@ Tree branch(int key, Tree left, Tree right) {
     return t;
 }
 
-Tree leaf() {
+Tree emptyTree() {
     return NULL;
 }
 

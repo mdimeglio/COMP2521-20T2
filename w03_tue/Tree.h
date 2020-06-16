@@ -5,8 +5,8 @@
 
 typedef struct branch *Tree;
 
-Tree branch(int key, Tree left, Tree right);
-Tree leaf();
+Tree nonEmptyTree(int key, Tree left, Tree right);
+Tree emptyTree();
 void freeTree(Tree t);
 int countNodes(Tree t);
 int depth(Tree t);

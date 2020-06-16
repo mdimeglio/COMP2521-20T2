@@ -13,7 +13,9 @@ testTree.o : TestTree.c Tree.h
 MaybeInt.o : MaybeInt.c MaybeInt.h
 EitherIntInt.o : EitherIntInt.c EitherIntInt.h
 
-clean : rm -fr $(BINS) $(OBJS)
+.PHONY: clean
+clean :
+	rm -fr $(BINS) $(OBJS)
 
 
 
